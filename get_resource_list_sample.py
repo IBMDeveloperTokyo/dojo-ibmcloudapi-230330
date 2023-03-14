@@ -196,7 +196,7 @@ if os.path.isfile(usage_csv):
     # crnをキーに作成者ID(IBMid)､メールアドレス､タグ情報を保持する
     crn_to_creator = {}
     for item in resource_list:
-        crn_to_creator[item[0]] = (item[7], item[8], item[9])
+        crn_to_creator[item[0]] = (item[6], item[7], item[9])
 
     # 読み込んだファイルに作成者ID(IBMid)､メールアドレス､タグ情報の列を追加する
     data = []
